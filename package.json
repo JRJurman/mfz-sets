@@ -1,0 +1,15 @@
+{
+  "name": "mfz-sets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "search-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htmlparser": "^1.7.7",
+    "node-fetch": "^1.6.3"
+  }
+}
