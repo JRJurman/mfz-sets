@@ -3,13 +3,13 @@ const htmlparser = require('htmlparser');
 const readline = require('readline');
 
 const brickOwl = 'http://www.brickowl.com';
-const mfzWishlistURL = `${brickOwl}/wishlist/view/BrickTiger/mobile-frame-zero-garage-kit-for-brickowl`;
+const mfzWishlistURL = `${brickOwl}/wishlist/view/jr-mobile-frame/mobile-frame-zero-odd-pieces-for-garage-kit-for-brickowl`;
 // if a set has less than this many of a pieces, ignore
 // make this less than one to accept parital quantities
 // make this larger than one to only accept extras
 const requiredPercent = 0.5;
 // if a set has less than this many types of pieces, ignore
-const requiredNumOfPieces = 14;
+const requiredNumOfPieces = 10;
 
 async function getWishlistParts(wishlistURL) {
   // get wishlist html
